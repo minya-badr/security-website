@@ -1,0 +1,102 @@
+.header-photo{
+    width: 100%;
+}
+nav{ background-color: black;}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.container ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+.container li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.contemt1{
+    background-color: rgb(144, 142, 142);
+    text-align: center;
+    color: white;
+}
+.contemt1 p{
+    width: 50%;
+    margin: auto;
+}
+.sections{
+    background-color: rgb(205, 200, 200);
+}
+.sections img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.sections a {
+    text-decoration: none;
+    background-color: rgb(144, 142, 142);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.item img{
+    border-radius: 20px;
+    height: 50%;
+    width: 100%;
+}
+.pics{
+    background-color: rgb(205, 200, 200);
+}
+footer{
+    margin: auto;
+    background-color: rgb(144, 142, 142);
+   display: flex;
+   justify-content: center;
+}
+footer i {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.sign-in-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+   
+}
+.modal-content input{
+    background-color: transparent;
+    color: white;
+}
+.modal-content a{
+    margin-left: 350px;
+}
+@media(max-width:570px){
+    nav .container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media(max-width:770px){
+    .contemt1 p{
+        width: 95%;
+    }
+}
